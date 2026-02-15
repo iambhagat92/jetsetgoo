@@ -74,7 +74,7 @@ export function Pricing() {
                         </div>
 
                         <div className="bg-white dark:bg-zinc-900 p-6 rounded-xl shadow-md border border-zinc-100 dark:border-zinc-800">
-                            <h4 className="font-bold text-lg mb-2">Need a custom quote?</h4>
+                            <h4 className="font-bold text-lg mb-2 text-primary dark:text-white">Need a custom quote?</h4>
                             <p className="text-sm text-muted-foreground mb-4">Get a precise cost breakdown for your specific trip.</p>
                             <Button variant="primary" className="w-full">
                                 Request Quote
