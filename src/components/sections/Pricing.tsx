@@ -17,7 +17,7 @@ export function Pricing() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
                     {/* Estimated Costs Table */}
                     <div className="bg-white dark:bg-zinc-900 rounded-2xl shadow-xl overflow-hidden border border-zinc-100 dark:border-zinc-800">
-                        <div className="bg-primary p-6">
+                        <div className="bg-[#0A192F] p-6">
                             <h3 className="text-2xl font-serif font-bold text-white text-center">Hourly Rate Estimator</h3>
                         </div>
                         <div className="p-8">

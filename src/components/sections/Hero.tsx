@@ -7,7 +7,7 @@ export function Hero() {
             {/* Background Image Placeholder - Replace with actual video/image */}
             <div className="absolute inset-0 bg-zinc-900">
                 <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1540962351504-03099e0a754b?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-40 mix-blend-overlay" />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/30 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0A192F]/90 via-[#0A192F]/30 to-transparent" />
             </div>
 
             <div className="container relative z-10 px-6 pt-20">

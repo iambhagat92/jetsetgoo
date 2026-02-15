@@ -3,7 +3,7 @@ import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from "luc
 
 export function Footer() {
     return (
-        <footer className="bg-primary text-white pt-20 pb-10">
+        <footer className="bg-[#0A192F] text-white pt-20 pb-10">
             <div className="container mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
                     {/* Brand Column */}

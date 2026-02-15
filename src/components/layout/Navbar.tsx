@@ -27,7 +27,7 @@ export function Navbar() {
             className={cn(
                 "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
                 isScrolled
-                    ? "bg-primary/95 backdrop-blur-md py-4 shadow-md"
+                    ? "bg-[#0A192F]/95 backdrop-blur-md py-4 shadow-md"
                     : "bg-transparent py-6"
             )}
         >
@@ -74,7 +74,7 @@ export function Navbar() {
 
             {/* Mobile Menu */}
             {isMobileMenuOpen && (
-                <div className="md:hidden absolute top-full left-0 right-0 bg-primary border-t border-white/10 p-6 flex flex-col gap-4 shadow-xl">
+                <div className="md:hidden absolute top-full left-0 right-0 bg-[#0A192F] border-t border-white/10 p-6 flex flex-col gap-4 shadow-xl">
                     {["Home", "Fleet", "Pricing", "Empty Legs", "Blog"].map((item) => (
                         <Link
                             key={item}
